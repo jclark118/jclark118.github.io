@@ -21,6 +21,7 @@
   h2 {
     max-width: 20rem;
     font-size: 1rem;
+    animation: bounceIn 2s;
   }
   @media(min-width: 768px) {
     h1 {
