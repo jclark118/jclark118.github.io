@@ -9,6 +9,17 @@
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
+  .gradient-button {
+    color: #fff;
+    background-color: $primary;
+    border-color: #007bff;
+    transition: all 300ms ease-in-out;
+  }
+  .gradient-button:hover {
+    background-image: linear-gradient(to right, $primary 0%, $secondary 80%, $secondary 100%);
+    transition: all 300ms ease-in-out;
+    letter-spacing: 12px;
+  }
   h1 {
     font-family: 'Varela Round';
     font-size: 2.5rem;
