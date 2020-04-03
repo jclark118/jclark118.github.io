@@ -37,6 +37,11 @@
   background-color: transparent;
 }
 
+#mainNav .navbar-nav .nav-item .align-box {
+  display: flex;
+  align-items: center;
+}
+
 @media (min-width: 992px) {
   #mainNav {
     padding-top: 0;
